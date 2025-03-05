@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Credentials and sensitive data
+config/config.env
+*.env
+amazon_cookies.json
+*_cookies.json
+__pycache__/
+*.py[cod]
+*.class
+
+# Logs
+*.log
+logs/
+chromedriver.log
+
+# Other
+.DS_Store
+.idea/
+.vscode/
